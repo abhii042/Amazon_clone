@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --amazon-dark: #0F1111;
+  --amazon-blue: #222f3d;
+  --amazon-orange: #febd69;
+  --amazon-orange-hover: #f3a847;
+  --amazon-link: #007185;
+  --amazon-yellow: #FFD814;
+  --amazon-yellow-hover: #F7CA00;
+}
+
+body {
+  background-color: #fff;
+}

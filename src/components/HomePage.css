@@ -1,0 +1,51 @@
+.home-page {
+  background-color: #e3e6e6;
+  min-height: 100vh;
+}
+
+.search-results-section {
+  background-color: #fff;
+  padding: 20px 24px;
+  min-height: 60vh;
+}
+
+.search-heading {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #0F1111;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  color: #555;
+}
+
+.no-results i {
+  font-size: 3rem;
+  color: #ccc;
+  margin-bottom: 12px;
+}
+
+.no-results p {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.no-results button {
+  padding: 10px 24px;
+  background: #febd69;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
